@@ -55316,7 +55316,7 @@ Z.F4.prototype={
 aS:function(){var s,r=this
 r.bs()
 s=r.d
-if(J.aa(s).B(s,"/code/")&&C.c.B(s,"/app/")){r.ap(new Z.YS(r))
+if(J.aa(s).B(s,"?code=")&&C.c.B(s,"?app=")){r.ap(new Z.YS(r))
 r.oH()}},
 oH:function(){var s=0,r=P.a0(t.H),q=this,p,o,n
 var $async$oH=P.W(function(a,b){if(a===1)return P.Y(b,r)
@@ -55378,8 +55378,8 @@ else s=T.q7(L.h9("Something went wrong!",q,q,q,q,q,q),q,q)
 return M.aaj(s)}}
 Z.YS.prototype={
 $0:function(){var s=this.a,r=s.d
-s.e=J.a4u(r.split("/code/")[1],"/")[0]
-s.f=J.a4u(r.split("/app/")[1],"/")[0]},
+s.e=J.a4u(r.split("?code=")[1],"?")[0]
+s.f=J.a4u(r.split("?app=")[1],"/")[0]},
 $S:4}
 Z.YT.prototype={
 $0:function(){var s=this.a.c
